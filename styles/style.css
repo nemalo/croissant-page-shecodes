@@ -1,0 +1,25 @@
+:root {
+  --maximum-yellow-red: #f5b632ff;
+  --alloy-orange: #c0651eff;
+  --pewter-blue: #9ab5c8ff;
+  --columbia-blue: #c5d9e2ff;
+  --onyx: #3d3f47ff;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: var(--columbia-blue);
+}
+
+.content-start-homepage {
+  margin-top: 3em;
+}
+.content-start {
+  margin-top: 6em;
+}
+
+.homepage-intro {
+  padding-left: 3em;
+  padding-right: 5em;
+}
