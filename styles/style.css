@@ -4,6 +4,11 @@
   --pewter-blue: #9ab5c8ff;
   --columbia-blue: #c5d9e2ff;
   --onyx: #3d3f47ff;
+  --dark-sienna: #52181fff;
+  --gunmetal: #16262dff;
+  --jet: #37343bff;
+  --antique-bronze: #585016ff;
+  --silver-sand: #bdcad0ff;
 }
 
 body {
@@ -11,6 +16,45 @@ body {
   margin-right: 0;
   background-color: var(--columbia-blue);
 }
+
+/* Elements */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: var(--jet);
+}
+
+a {
+  color: var(--alloy-orange);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-sienna);
+  text-decoration: none;
+}
+
+.yellow-button {
+  color: var(--alloy-orange);
+  padding: 0.5em 1.5em 0.6em 1.5em;
+  border: solid 2px;
+  border-color: var(--alloy-orange);
+  border-radius: 5px;
+}
+
+.yellow-button:hover {
+  color: var(--dark-sienna);
+  padding: 0.5em 1.5em 0.6em 1.5em;
+  border: solid 2px;
+  border-color: var(--dark-sienna);
+  border-radius: 5px;
+}
+
+/* Page parts */
 
 .content-start-homepage {
   margin-top: 3em;
